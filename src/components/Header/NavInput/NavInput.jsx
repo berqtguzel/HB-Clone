@@ -30,7 +30,7 @@ function NavInput() {
             isFocused ? 'search-focused-button' : ''
           }`}
         >
-          ARA
+          Deneme Branch
         </button>
       </div>
       {/* //<FaSearch className="search-icon" /> */}
