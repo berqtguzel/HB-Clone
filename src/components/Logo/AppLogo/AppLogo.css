@@ -1,0 +1,22 @@
+.logo {
+  width: 20%;
+}
+.logo-title {
+  width: 15%;
+  padding-left: 9%;
+  text-align: left;
+  margin: 0 0 0;
+  font-weight: 600;
+}
+.logo-pre {
+  text-decoration: none;
+  color: #ff6000;
+}
+.logo-pre:hover {
+  text-decoration: underline;
+  color: #ff5100;
+}
+
+.nav-ınput {
+  text-align: center;
+}
