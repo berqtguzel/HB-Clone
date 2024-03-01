@@ -1,0 +1,20 @@
+.shopping {
+  margin-left: 15px;
+  background-color: #919191;
+  width: 140px;
+  height: 60px;
+  border: 1px solid #919191;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+.shopping-icon {
+  font-weight: 1000;
+  padding-right: 10px;
+  font-size: 30px;
+}

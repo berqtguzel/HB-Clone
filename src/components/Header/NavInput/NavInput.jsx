@@ -4,6 +4,7 @@ import './NavInput.css'; // Adı değiştirildi ve büyük harfle başladığın
 
 function NavInput() {
   // İsim büyük harfle başlamalı
+
   const [isFocused, setIsFocused] = useState(false);
 
   const handleOnFocus = () => {
@@ -30,10 +31,20 @@ function NavInput() {
             isFocused ? 'search-focused-button' : ''
           }`}
         >
-          Deneme Branch
+          ARA
         </button>
       </div>
-      {/* //<FaSearch className="search-icon" /> */}
+      {isFocused ? (
+        <div className="focused-nav-input">
+          <h6 className="focused-nav-input-text">
+            Aramaya başlamak için en az 2 karakter yazmalısınız
+          </h6>
+        </div>
+      ) : (
+        ''
+      )}
+
+      <FaSearch className="search-icon" />
     </div>
   );
 }

@@ -1,0 +1,31 @@
+.Cb {
+  position: absolute;
+  display: flex;
+  top: 110px;
+}
+.cb-orange {
+  margin: 0 0 0;
+  width: 700px;
+  height: 10px;
+  background-color: #ff6000;
+}
+.cb-purple {
+  width: 300px;
+  height: 10px;
+  background-color: #7723db;
+}
+.cb-blue {
+  width: 300px;
+  height: 10px;
+  background-color: #49c7ed;
+}
+.cb-green {
+  width: 300px;
+  height: 10px;
+  background-color: #57b900;
+}
+.cb-dpurple {
+  width: 330px;
+  height: 10px;
+  background-color: #5d196a;
+}

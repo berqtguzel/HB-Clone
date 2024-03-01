@@ -1,0 +1,76 @@
+.location-icon {
+  padding-top: 13px;
+  width: 50px;
+  height: 30px;
+}
+.location {
+  width: 150px;
+  height: 60px;
+  margin-left: 25px;
+}
+.location-focus {
+  color: #ff6000;
+  border-radius: 7px;
+  background-color: #f5f5f5;
+  width: 150px;
+  height: 58px;
+}
+.location-link {
+  cursor: pointer;
+  display: flex;
+  font-weight: bolder;
+  padding-top: 4px;
+  text-decoration: none;
+}
+
+.location-text-1 {
+  font-size: 20px;
+  margin: 0 0 0;
+  display: flex;
+  width: 0;
+  height: 0;
+  text-align: center;
+  font-weight: 700;
+  color: #484848;
+}
+.location-text-2 {
+  font-weight: 500;
+  width: 90px;
+  align-items: end;
+  height: 50px;
+  margin: 0 0 0;
+  display: flex;
+  color: #ff6000;
+}
+.location-input {
+  border-radius: 5px;
+  padding: 3px 3px 3px 3px;
+  width: 205px;
+  height: 300px;
+  box-shadow: 3px 3px 3px 3px black;
+  border: 19px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.location-select {
+  border-radius: 9px;
+  border: none;
+  border: 3px solid #f5f5f5;
+  height: 100px;
+}
+.txt-dark {
+  font-size: 0.9rem;
+  color: black;
+}
+.txt-dark2 {
+  font-size: 0.7rem;
+  color: black;
+}
+.select-button {
+  background-color: #cccccc;
+  width: 200px;
+  height: 100px;
+  border-radius: 8px;
+  border: none;
+}
