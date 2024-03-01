@@ -5,7 +5,7 @@ import NavInput from '../NavInput/NavInput';
 import Location from '../Location/Location';
 import Login from '../Login/Login';
 import Shopping from '../Shopping/Shopping';
-import Cb from '../ColorfulBorder/Cb';
+// import Cb from '../ColorfulBorder/Cb';
 
 const AppHeader = () => {
   return (
@@ -16,7 +16,7 @@ const AppHeader = () => {
         <Location />
         <Login />
         <Shopping />
-        <Cb />
+        {/* <Cb /> */}
       </div>
     </>
   );
