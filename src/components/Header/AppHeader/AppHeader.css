@@ -1,6 +1,25 @@
 .app-header {
-  margin-top: 30px;
+  margin: 0px 10px 0 10px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
-  width: 100%;
+  margin-bottom: 6px;
+}
+.app-left {
+  z-index: 2;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.app-middle {
+  z-index: 2;
+  justify-content: center;
+  display: flex;
+}
+.app-right {
+  display: flex;
+}
+.app-bottom {
+  z-index: 2;
+  display: flex;
 }

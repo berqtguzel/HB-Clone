@@ -6,7 +6,7 @@
 .location {
   width: 150px;
   height: 60px;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 .location-focus {
   color: #ff6000;
@@ -43,6 +43,9 @@
   color: #ff6000;
 }
 .location-input {
+  z-index: 99;
+  position: relative;
+  background-color: white;
   border-radius: 5px;
   padding: 3px 3px 3px 3px;
   width: 205px;
