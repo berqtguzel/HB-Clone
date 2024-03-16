@@ -1,22 +1,24 @@
+.app-logo {
+  flex-direction: column;
+  display: flex;
+  margin-right: 50px;
+  width: 9%;
+}
 .logo {
-  width: 20%;
+  width: 100%;
 }
 .logo-title {
-  width: 15%;
-  padding-left: 9%;
-  text-align: left;
-  margin: 0 0 0;
+  font-size: 13px;
+  padding-left: 60px;
+  margin: 0 0 0 0;
   font-weight: 600;
 }
 .logo-pre {
+  font-weight: 700;
   text-decoration: none;
   color: #ff6000;
 }
 .logo-pre:hover {
   text-decoration: underline;
   color: #ff5100;
-}
-
-.nav-ınput {
-  text-align: center;
 }
