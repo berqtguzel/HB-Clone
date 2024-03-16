@@ -25,7 +25,7 @@ const Slider = () => {
     >
       {swiperDatas.map((obj) => (
         <SwiperSlide key={obj.id}>
-          <img src={require(`../../assets/img/${obj.img}.png`)} alt="" />
+          <img src={require(`../../assets/img/${obj.imgSrc}.png`)} alt="" />
         </SwiperSlide>
       ))}
     </Swiper>
