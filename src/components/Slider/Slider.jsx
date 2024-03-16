@@ -6,10 +6,10 @@ import 'swiper/css/navigation';
 
 const Slider = () => {
   const swiperDatas = [
-    { img: 'sl1', id: 'img1' },
-    { img: 'sl2', id: 'img1' },
-    { img: 'sl3', id: 'img1' },
-    { img: 'sl4', id: 'img1' },
+    { imgSrc: 'sl1', id: 'img1' },
+    { imgSrc: 'sl2', id: 'img2' },
+    { imgSrc: 'sl3', id: 'img3' },
+    { imgSrc: 'sl4', id: 'img4' },
   ];
 
   return (

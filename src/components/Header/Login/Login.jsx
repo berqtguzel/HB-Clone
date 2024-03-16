@@ -7,12 +7,10 @@ import Overlay from '../../Overlay/Overlay';
 const Login = () => {
   const [isHover, setisHover] = useState(false);
 
-  const handleIsHover = () => {
-    setisHover(true);
+  const handleIsHover = (isHover) => {
+    setisHover(isHover);
   };
-  const handleIsHover2 = () => {
-    setisHover(false);
-  };
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleOverlay = () => {
@@ -22,7 +20,7 @@ const Login = () => {
   return (
     <div>
       <div
-        onMouseEnter={handleIsHover}
+        onMouseEnter={() => handleIsHover(true)}
         onMouseLeave={toggleOverlay}
         className="login"
       >
@@ -36,7 +34,10 @@ const Login = () => {
         {isHover ? (
           <>
             <Overlay isOpen={isOpen} onClose={toggleOverlay}></Overlay>
-            <div onMouseLeave={handleIsHover2} className="login-hover-menu">
+            <div
+              onMouseLeave={() => handleIsHover(false)}
+              className="login-hover-menu"
+            >
               <p className="login-p">Giriş Yap</p>
               <p className="login-p">Üye Ol</p>
               <hr />
