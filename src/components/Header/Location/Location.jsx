@@ -5,31 +5,27 @@ import { CiLocationOn } from 'react-icons/ci';
 const Location = () => {
   const [isClick, setIsClicked] = useState(false);
 
-  const handleIsClick = () => {
-    setIsClicked(true);
-  };
-
-  const handleDoubleClick = () => {
-    setIsClicked(false);
+  const handleIsClick = (isClick) => {
+    setIsClicked(isClick);
   };
 
   return (
     <>
       <div
-        onClick={setIsClicked}
-        onDoubleClick={handleDoubleClick}
+        onClick={() => setIsClicked(true)}
+        onDoubleClick={() => setIsClicked(false)}
         className={`location ${isClick ? 'location-focus' : ''}`}
       >
         <div className="location-link" href="#">
           <CiLocationOn className="location-icon" />
-          <p className="location-text-1">Konum</p>
-          <p className="location-text-2">Konum Seç</p>
+          <p className="location-text">Konum</p>
+          <p className="location-choose-text">Konum Seç</p>
         </div>
         <br />
         {isClick ? (
           <div className="location-input">
-            <h3 className="txt-dark">Konumunuzu Belirleyin</h3>
-            <p className="txt-dark2">
+            <h3 className="input-main-text">Konumunuzu Belirleyin</h3>
+            <p className="input-text">
               Adresinizi veya konum bilgilerinizi seçerek özel hizmetleri
               görebilirsiniz.
             </p>

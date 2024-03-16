@@ -17,13 +17,14 @@
 }
 .search-icon {
   position: absolute;
-  top: 41px;
-  left: 33.1%;
+  top: 43px;
+  left: 31.5%;
   width: 30px;
-  height: 25px;
-  opacity: 30%;
+  height: 20px;
+  opacity: 20%;
 }
 .search-button {
+  cursor: pointer;
   border-radius: 0 4px 4px 0;
   color: white;
   background-color: gray;

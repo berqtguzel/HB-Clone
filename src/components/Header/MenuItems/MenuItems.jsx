@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import '../MenuItems/MenuItems.css';
-import Overlay from '../../Overlay/Overlay';
 const MenuItems = () => {
   const [isHover, isSetHover] = useState(false);
 
-  const handleHover = () => {
-    isSetHover(true);
+  const handleHover = (isHover) => {
+    isSetHover(isHover);
   };
-  const handleisHover = () => {
-    isSetHover(false);
-  };
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleOverlay = () => {
@@ -20,13 +17,13 @@ const MenuItems = () => {
       <div className="menu-item">
         <ul
           onMouseEnter={toggleOverlay}
-          onMouseMove={handleHover}
-          onMouseLeave={handleisHover}
+          onMouseMove={() => handleHover(true)}
+          onMouseLeave={() => handleHover(false)}
           className="items"
         >
           <li
-            onMouseMove={handleHover}
-            onMouseLeave={handleisHover}
+            onMouseMove={() => handleHover(true)}
+            onMouseLeave={() => handleHover(true)}
             className="item"
           >
             Elektronik

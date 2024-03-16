@@ -4,33 +4,27 @@ import AppLogo from '../../Logo/AppLogo/AppLogo';
 import NavInput from '../NavInput/NavInput';
 import Location from '../Location/Location';
 import Login from '../Login/Login';
-import Shopping from '../Shopping/Shopping';
-import Cb from '../ColorfulBorder/Cb';
+import ColorfulBorder from '../ColorfulBorder/ColorfulBorder';
 import MenuItems from '../MenuItems/MenuItems';
+import ShoppingCart from '../ShoppingCart/ShoppingCart';
 
 const AppHeader = () => {
   return (
-    <>
-      <div className="app-header">
-        <div className="app-left">
-          <AppLogo />
-        </div>
-        <div className="app-middle">
-          <NavInput />
-        </div>
-        <div className="app-right">
-          <Location />
-          <Login />
-          <Shopping />
-        </div>
+    <div className="app-header">
+      <div className="app-header-top">
+        <AppLogo />
+        <NavInput />
+        <Location />
+        <Login />
+        <ShoppingCart />
       </div>
-      <div className="app-bottom">
-        <Cb />
+      <div className="app-header-mid">
+        <ColorfulBorder />
       </div>
-      <div className="app-menu">
+      <div className="app-header-bottom">
         <MenuItems />
       </div>
-    </>
+    </div>
   );
 };
 

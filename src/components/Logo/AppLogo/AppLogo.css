@@ -1,15 +1,16 @@
 .app-logo {
   flex-direction: column;
   display: flex;
-  width: 60%;
+  margin-right: 50px;
+  width: 9%;
 }
 .logo {
   width: 100%;
 }
 .logo-title {
-  width: 90%;
-  padding-left: 40px;
-  margin: 0 0 0;
+  font-size: 13px;
+  padding-left: 60px;
+  margin: 0 0 0 0;
   font-weight: 600;
 }
 .logo-pre {
