@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { FaSearch } from 'react-icons/fa';
-import './NavInput.css'; // Adı değiştirildi ve büyük harfle başladığından emin olun
+import React, { useState } from "react";
+import { FaSearch } from "react-icons/fa";
+import "./NavInput.css"; // Adı değiştirildi ve büyük harfle başladığından emin olun
 
 function NavInput() {
   // İsim büyük harfle başlamalı
@@ -19,6 +19,7 @@ function NavInput() {
     <>
       <div className="nav-input">
         <div className="search-bar">
+          <FaSearch className="search-icon" />
           <input
             onFocus={handleOnFocus}
             onBlur={handleBlur}
@@ -29,7 +30,7 @@ function NavInput() {
           />
           <button
             className={`search-button ${
-              isFocused ? 'search-focused-button' : ''
+              isFocused ? "search-focused-button" : ""
             }`}
           >
             ARA
@@ -42,9 +43,8 @@ function NavInput() {
             </h6>
           </div>
         ) : (
-          ''
+          ""
         )}
-        <FaSearch className="search-icon" />
       </div>
     </>
   );

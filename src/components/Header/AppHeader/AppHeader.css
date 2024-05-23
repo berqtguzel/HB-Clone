@@ -1,11 +1,22 @@
 .app-header {
-  margin: 25px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .app-header-top {
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
+padding: 25px 0 10px 0 ;
+width: 100%;
+z-index: 3;
+position: relative;
+background-color: white;
+display: flex;
+justify-content: center;
 }
 .app-header-mid {
   display: flex;
+}
+.app-header-bottom{
+  width: 100%;
+  
 }

@@ -8,6 +8,6 @@
   bottom: 0;
   background-color: black;
   opacity: 40%;
-  z-index: 3;
+  z-index: 1;
   cursor: pointer;
 }
